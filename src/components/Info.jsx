@@ -18,8 +18,6 @@ const Info = () => {
           country: info.location.country,
           phoneNo: info.phone,
         });
-
-        // setState(response);
       })
       .catch(function (error) {
         console.log(error);
